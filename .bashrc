@@ -1,18 +1,21 @@
-## custom prompt
+# Config
+
+## prompt
 export PS1="%1~ 🌮 🐴 💨  "
+
+# Tools
 
 ## git
 eval "$(ssh-agent -s)"
 
-## nvm
-export NVM_DIR=~/.nvm
-source $(brew --prefix nvm)/nvm.sh
-
 ## go
-export GOPATH=$HOME/go
-export PATH=$PATH:$GOPATH/bin
+export PATH="$PATH:$(go env GOPATH)/bin"
 
-## Java 8
-export CPPFLAGS="-I/usr/local/opt/openjdk/include"
-export PATH="/usr/local/opt/openjdk/bin:$PATH"
-export PATH="/usr/local/opt/openjdk@8/bin:$PATH"
+## homebrew
+export PATH="/opt/homebrew/bin:$PATH"
+
+## nvm
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+
+# Work
