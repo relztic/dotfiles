@@ -3,7 +3,7 @@
 ## prompt
 export PS1="%1~ 🌮 🐴 💨  "
 
-# Tools
+# Scripts
 
 ## git
 eval "$(ssh-agent -s)"
@@ -15,7 +15,8 @@ export PATH="$PATH:$(go env GOPATH)/bin"
 export PATH="/opt/homebrew/bin:$PATH"
 
 ## nvm
-export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # Work
