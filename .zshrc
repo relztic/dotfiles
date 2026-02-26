@@ -1,1 +1,1 @@
-source ~/.bashrc
+source ~/Projects/relztic/dotfiles/.bashrc
