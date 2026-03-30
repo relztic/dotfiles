@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+# .bash_profile.local
+# Local profile for private configurations.
+
+## Git
+USER_NAME=""
+USER_EMAIL=""
+
+gconfig --global user.name "$USER_NAME"
+gconfig --global user.email "$USER_EMAIL"
+
+unset USER_NAME USER_EMAIL

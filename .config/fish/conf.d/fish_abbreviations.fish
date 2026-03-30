@@ -1,0 +1,75 @@
+#!/usr/bin/env fish
+
+# fish_abbreviations.fish
+
+## cd
+abbr -a -- .. 'cd ..'
+abbr -a -- .2 'cd ../..'
+abbr -a -- .3 'cd ../../..'
+abbr -a -- .4 'cd ../../../..'
+abbr -a -- ~ 'cd ~'
+abbr -a -- - 'cd -'
+
+## ls
+abbr -a -- ls 'eza -al --color=always --group-directories-first'
+abbr -a -- la 'eza -a --color=always --group-directories-first'
+abbr -a -- ll 'eza -l --color=always --group-directories-first'
+abbr -a -- lt 'eza -aT --color=always --group-directories-first'
+abbr -a -- l. 'eza -a | egrep "^\."'
+
+## Docker
+abbr -a -- d 'docker'
+abbr -a -- dps 'docker ps'
+abbr -a -- dexec 'docker exec -it'
+abbr -a -- drun 'docker run'
+abbr -a -- dprune 'docker system prune'
+abbr -a -- dconfig 'docker config'
+
+## Docker Compose
+abbr -a -- dc 'docker compose'
+abbr -a -- dcps 'docker compose ps'
+abbr -a -- dcup 'docker compose up'
+abbr -a -- dcupd 'docker compose up -d'
+abbr -a -- dcdown 'docker compose down'
+abbr -a -- dcdownv 'docker compose down -v'
+abbr -a -- dcstart 'docker compose start'
+abbr -a -- dcstop 'docker compose stop'
+abbr -a -- dcrestart 'docker compose restart'
+abbr -a -- dcbuild 'docker compose build'
+abbr -a -- dcpush 'docker compose push'
+abbr -a -- dcpull 'docker compose pull'
+abbr -a -- dcexec 'docker compose exec'
+abbr -a -- dcrun 'docker compose run'
+abbr -a -- dclogs 'docker compose logs'
+abbr -a -- dcconfig 'docker compose config'
+
+## Git
+abbr -a -- g 'git'
+abbr -a -- ginit 'git init'
+abbr -a -- gclone 'git clone'
+abbr -a -- gstatus 'git status'
+abbr -a -- gadd 'git add'
+abbr -a --set-cursor='%' -- gcommitm 'git commit -m "%"'
+abbr -a -- gcommita 'git commit --amend'
+abbr -a -- gremote 'git remote'
+abbr -a -- gpush 'git push'
+abbr -a -- gpull 'git pull'
+abbr -a -- gfetch 'git fetch'
+abbr -a -- gbranch 'git branch'
+abbr -a -- gcheckout 'git checkout'
+abbr -a -- gmerge 'git merge'
+abbr -a -- grebase 'git rebase'
+abbr -a -- greset 'git reset'
+abbr -a -- gcherrypick 'git cherry-pick'
+abbr -a -- gtag 'git tag'
+abbr -a -- gworktree 'git worktree'
+abbr -a -- glog 'git log'
+abbr -a -- greflog 'git reflog'
+abbr -a -- gdiff 'git diff'
+abbr -a -- gblame 'git blame'
+abbr -a -- gstash 'git stash'
+abbr -a -- gstashp 'git stash pop'
+abbr -a -- gconfig 'git config'
+
+## rickrollrc
+abbr -a -- rr 'curl -fsSL https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh | bash'

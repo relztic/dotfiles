@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+# .bash_prompt
+
+## PS1
+export PS1="${COLOR_GREEN}${PROMPT_PWD}${COLOR_RESET} 🌮 🐴 💨 > "
+
+## PS2
+export PS2="👾 >> "

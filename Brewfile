@@ -1,0 +1,8 @@
+brew "bash-completion"
+brew "eza"
+brew "fish"
+brew "go"
+go "github.com/golangci/golangci-lint/v2/cmd/golangci-lint"
+go "golang.org/x/pkgsite/cmd/pkgsite"
+go "golang.org/x/tools/gopls"
+go "gotest.tools/gotestsum"

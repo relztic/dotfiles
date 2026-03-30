@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+# .bash_paths
+
+## Local
+export PATH="$LOCAL_PREFIX/bin:$PATH"
+
+## Go
+export PATH="$GOPATH/bin:$PATH"
+
+## Homebrew
+export PATH="$HOMEBREW_PREFIX/bin:$PATH"
