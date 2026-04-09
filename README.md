@@ -37,6 +37,7 @@ brew bundle install
   - [eza](https://eza.rocks/)
   - [fish shell](https://fishshell.com/)
   - [Go](https://go.dev/)
+  - [Nerd Fonts](https://www.nerdfonts.com/)
 - [fisher](https://github.com/jorgebucaran/fisher)
   - [nvm.fish](https://github.com/jorgebucaran/nvm.fish)
 
