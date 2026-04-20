@@ -1,7 +1,5 @@
 #!/usr/bin/env zsh
 
-# .zshrc
-
 FILE="$HOME/.bashrc"
 
 if [[ -f "$FILE" && -r "$FILE" ]]; then

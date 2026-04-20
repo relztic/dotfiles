@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-# .bash_profile.local
 # Local profile for private configurations.
 
 ## Git

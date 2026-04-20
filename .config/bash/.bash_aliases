@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-# .bash_aliases
-
 ## cd
 alias ..='cd ..'
 alias .2='cd ../..'

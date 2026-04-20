@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-# .bash_paths
-
 ## Local
 export PATH="$LOCAL_PREFIX/bin:$PATH"
 

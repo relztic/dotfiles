@@ -1,7 +1,5 @@
 #!/usr/bin/env fish
 
-# fish_exports.fish
-
 ## Local
 set -gx LOCAL_PREFIX /usr/local
 

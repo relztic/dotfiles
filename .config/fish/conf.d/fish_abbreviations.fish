@@ -1,7 +1,5 @@
 #!/usr/bin/env fish
 
-# fish_abbreviations.fish
-
 ## cd
 abbr -a -- .. 'cd ..'
 abbr -a -- .2 'cd ../..'

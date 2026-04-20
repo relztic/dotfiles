@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-# .bash_profile
-
 ## Bootstrap
 load_dotfiles() {
     BASH_DIR="$HOME/.config/bash"

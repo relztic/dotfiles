@@ -1,7 +1,5 @@
 #!/usr/bin/env fish
 
-# fish_paths.fish
-
 ## Local
 set -gx PATH $LOCAL_PREFIX/bin $PATH
 

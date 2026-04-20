@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-# .bash_exports
-
 ## Local
 export LOCAL_PREFIX="/usr/local"
 
