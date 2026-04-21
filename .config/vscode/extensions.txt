@@ -1,0 +1,16 @@
+aaron-bond.better-comments
+adpyke.codesnap
+alefragnani.project-manager
+davidanson.vscode-markdownlint
+eamodio.gitlens
+esbenp.prettier-vscode
+formulahendry.auto-rename-tag
+fuzionix.devtool-plus
+github.copilot-chat
+golang.go
+miguelsolorio.symbols
+ms-azuretools.vscode-containers
+ms-azuretools.vscode-docker
+ms-vscode.makefile-tools
+raillyhugo.one-hunter
+subframe7536.custom-ui-style

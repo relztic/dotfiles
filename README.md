@@ -26,6 +26,11 @@ cp $PWD/.config/bash/.bash_profile.local ~/.bash_profile.local
 
 # Homebrew
 brew bundle install
+
+# VS Code
+rm ~/Library/Application\ Support/Code/User/settings.json
+ln -s $PWD/.config/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
+cat $PWD/.config/vscode/extensions.txt | xargs -L 1 code --install-extension
 ```
 
 ## Dependencies
@@ -40,5 +45,6 @@ brew bundle install
   - [Nerd Fonts](https://www.nerdfonts.com/)
 - [fisher](https://github.com/jorgebucaran/fisher)
   - [nvm.fish](https://github.com/jorgebucaran/nvm.fish)
+- [VS Code](https://code.visualstudio.com/)
 
 > Take 🎂, Folks! 🌮 🐴 💨

@@ -1,0 +1,44 @@
+{
+    // Theme
+    "workbench.colorTheme": "One Hunter Flexoki Dark",
+
+    // Font
+    "custom-ui-style.font.monospace": "'Iosevka Nerd Font Mono'",
+    "custom-ui-style.font.sansSerif": "'Iosevka Nerd Font Mono'",
+    "editor.fontFamily": "'Iosevka Nerd Font Mono'",
+    "editor.fontSize": 13,
+    "markdown.preview.fontFamily": "'Iosevka Nerd Font Mono'",
+    "markdown.preview.fontSize": 13,
+    "terminal.integrated.fontFamily": "'Iosevka Nerd Font Mono'",
+    "terminal.integrated.fontSize": 13,
+
+    // Cursor
+    "editor.cursorStyle": "block",
+    "editor.cursorBlinking": "solid",
+    "editor.cursorSmoothCaretAnimation": "on",
+
+    // Breadcrumbs
+    "breadcrumbs.enabled": false,
+
+    // Editor
+    "editor.minimap.enabled": false,
+    "[markdown]": {
+        "editor.wordWrap": "off"
+    },
+
+    // Explorer
+    "explorer.compactFolders": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.decorations.badges": false,
+
+    // Workbench
+    "workbench.startupEditor": "none",
+    "workbench.activityBar.location": "top",
+    "workbench.iconTheme": "symbols",
+    "workbench.statusBar.visible": false,
+    "workbench.tips.enabled": false,
+
+    // Git
+    "git.decorations.enabled": false
+}
