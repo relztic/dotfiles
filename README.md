@@ -4,9 +4,9 @@ Config Mirror of my Local Environment | ⚙️ 👾
 
 ---
 
-[![Config](https://img.shields.io/badge/Config-FCC624?style=for-the-badge&logo=linux&logoColor=black)](#)
 [![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)](https://www.gnu.org/software/bash)
-[![Zsh](https://img.shields.io/badge/Zsh-F15A24?style=for-the-badge&logo=zsh&logoColor=white)](https://www.zsh.org/)
+[![Homebrew](https://img.shields.io/badge/Homebrew-FBB040?style=for-the-badge&logo=homebrew&logoColor=black)](https://brew.sh/)
+[![VS Code](https://custom-icon-badges.demolab.com/badge/VS%20Code-007ACC.svg?style=for-the-badge&logo=visualstudiocode&logoColor=white)](https://code.visualstudio.com/)
 
 Custom terminal setup to streamline my development workflow.  
 Synchronized using symbolic links.
@@ -15,21 +15,21 @@ Synchronized using symbolic links.
 
 ```sh
 # Config
-ln -s $PWD/.config ~/.config
+ln -s $PWD/.config $HOME/.config
 
 # Shells
-ln -s $PWD/.bashrc ~/.bashrc
-ln -s $PWD/.zshrc ~/.zshrc
+ln -s $PWD/.bashrc $HOME/.bashrc
+ln -s $PWD/.zshrc $HOME/.zshrc
 
 # Local Profile
-cp $PWD/.config/bash/.bash_profile.local ~/.bash_profile.local
+cp $PWD/.config/bash/.bash_profile.local $HOME/.bash_profile.local
 
 # Homebrew
 brew bundle install
 
 # VS Code
-rm ~/Library/Application\ Support/Code/User/settings.json
-ln -s $PWD/.config/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
+rm $HOME/Library/Application\ Support/Code/User/settings.json
+ln -s $PWD/.config/vscode/settings.json $HOME/Library/Application\ Support/Code/User/settings.json
 cat $PWD/.config/vscode/extensions.txt | xargs -L 1 code --install-extension
 ```
 
