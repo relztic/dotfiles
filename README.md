@@ -6,9 +6,9 @@ Config Mirror of my Local Environment | ⚙️ 👾
 
 [![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)](https://www.gnu.org/software/bash)
 [![Homebrew](https://img.shields.io/badge/Homebrew-FBB040?style=for-the-badge&logo=homebrew&logoColor=black)](https://brew.sh/)
-[![VS Code](https://custom-icon-badges.demolab.com/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)](https://code.visualstudio.com/)
+[![Zed](https://img.shields.io/badge/Zed-084CCF?style=for-the-badge&logo=zedindustries&logoColor=white)](https://zed.dev/)
 
-Custom terminal setup to streamline my development workflow.  
+Custom setup to streamline my development workflow.  
 Synchronized using symbolic links.
 
 ## Installation
