@@ -40,6 +40,7 @@ ln -s $PWD/.config/vscode/settings.json $HOME/Library/Application\ Support/Code/
   - [bash-completion](https://github.com/scop/bash-completion)
   - [eza](https://eza.rocks/)
   - [fish shell](https://fishshell.com/)
+  - [pnpm](https://pnpm.io/)
   - [Go](https://go.dev/)
   - [Nerd Fonts](https://www.nerdfonts.com/)
 - [fisher](https://github.com/jorgebucaran/fisher)
