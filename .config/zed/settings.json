@@ -1,0 +1,55 @@
+{
+  // Keymap
+  "base_keymap": "VSCode",
+
+  // Theme
+  "theme": {
+    "mode": "dark",
+    "light": "One Hunter Flexokit Light",
+    "dark": "One Hunter Flexoki Dark",
+  },
+
+  // Icon
+  "icon_theme": {
+    "mode": "dark",
+    "light": "Symbols Icon Theme",
+    "dark": "Symbols Icon Theme",
+  },
+
+  // Font
+  "ui_font_family": "Iosevka Nerd Font Mono",
+  "ui_font_size": 15,
+  "buffer_font_family": "Iosevka Nerd Font Mono",
+  "buffer_font_size": 13,
+  "terminal": {
+    "font_family": "Iosevka Nerd Font Mono",
+    "font_size": 13,
+  },
+
+  // Cursor
+  "cursor_shape": "block",
+  "cursor_blink": false,
+
+  // Editor
+  "minimap": {
+    "show": "never",
+  },
+
+  // Project Panel
+  "project_panel": {
+    "dock": "left",
+    "auto_fold_dirs": false,
+    "git_status": false,
+    "git_status_indicator": false,
+  },
+
+  // Outline Panel
+  "outline_panel": {
+    "git_status": false,
+  },
+
+  // Tabs
+  "tabs": {
+    "git_status": false,
+  },
+}

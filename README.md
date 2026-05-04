@@ -45,5 +45,6 @@ ln -s $PWD/.config/vscode/settings.json $HOME/Library/Application\ Support/Code/
 - [fisher](https://github.com/jorgebucaran/fisher)
   - [nvm.fish](https://github.com/jorgebucaran/nvm.fish)
 - [VS Code](https://code.visualstudio.com/)
+- [Zed](https://zed.dev/)
 
 > Take 🎂, Folks! 🌮 🐴 💨
