@@ -1,5 +1,8 @@
 #!/usr/bin/env fish
 
+## common
+abbr -a --set-cursor='%' -- killport 'kill -9 $(lsof -ti:%)'
+
 ## cd
 abbr -a -- .. 'cd ..'
 abbr -a -- .2 'cd ../..'
@@ -47,7 +50,7 @@ abbr -a -- ginit 'git init'
 abbr -a -- gclone 'git clone'
 abbr -a -- gstatus 'git status'
 abbr -a -- gadd 'git add'
-abbr -a --set-cursor='%' -- gcommitm 'git commit -m "%"'
+abbr -a --set-cursor='%' -- gcommit 'git commit -m "%"'
 abbr -a -- gcommita 'git commit --amend'
 abbr -a -- gremote 'git remote'
 abbr -a -- gpush 'git push'

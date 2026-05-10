@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+## common
+killport() { kill -9 "$(lsof -ti:"$1")" }
+
 ## cd
 alias ..='cd ..'
 alias .2='cd ../..'
@@ -47,7 +50,7 @@ alias ginit='git init'
 alias gclone='git clone'
 alias gstatus='git status'
 alias gadd='git add'
-alias gcommitm='git commit -m'
+gcommit() { git commit -m "$1" }
 alias gcommita='git commit --amend'
 alias gremote='git remote'
 alias gpush='git push'
